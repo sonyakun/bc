@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'MinecraftFifty-Solid';
+      src: url('../fonts/MinecraftFifty-Solid.otf') format('opentype');
+}
+
+.text-center {
+    text-align: center;
+    justify-content: center;
+}
+
+.h1 {
+    font-size: 200%;
+}
+
+.h2 {
+    font-size: 150%;
+}
+
+.mcfont {
+    font-family: "MinecraftFifty-Solid";
+}
+
+.btn_center {
+    text-align: center; 
+    justify-content: center;
+}
+
+.btn-play {
+    display: inline-block;
+    padding: 0.5em 5em;
+    text-decoration: none;
+    background-color: #3e8a4c;
+    box-shadow: 0px 0px 0px 2px #0a0a0a;
+    color: #fff;
+    border: solid 2px #316d42;
+    border-top: solid 2px #64cb55;
+}
+  
+.btn-play:hover {
+    background-color: #429255;
+}
+
+.btn-play:active {
+    box-shadow: 0px 0px 0px 2px #fff;
+}
